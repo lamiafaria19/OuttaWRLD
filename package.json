@@ -1,0 +1,17 @@
+{
+  "name": "outtawrld",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "node-sass -watch -r sass -o css"
+  },
+  "keywords": [],
+  "author": {
+    "email": "rasel.mahmud.dev@gmail.com",
+    "name": "rasel mahmud"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

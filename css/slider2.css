@@ -1,0 +1,81 @@
+/* line 1, sass/slider2.scss */
+.slider2-root {
+  max-width: 1310px;
+  margin: auto; }
+  /* line 4, sass/slider2.scss */
+  .slider2-root .splide__arrows {
+    display: none; }
+
+/* line 11, sass/slider2.scss */
+.recent .container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px; }
+  /* line 15, sass/slider2.scss */
+  .recent .container > div .carousel2-bottom-control {
+    display: flex;
+    column-gap: 20px; }
+    /* line 18, sass/slider2.scss */
+    .recent .container > div .carousel2-bottom-control img {
+      width: 30px; }
+  /* line 22, sass/slider2.scss */
+  .recent .container > div h1 {
+    margin: 0; }
+
+/* line 31, sass/slider2.scss */
+.mute-btn {
+  filter: opacity(0.6); }
+
+@media (max-width: 1910px) {
+  /* line 39, sass/slider2.scss */
+  .slider2-root {
+    max-width: 1554px !important;
+    margin-left: auto;
+    margin-right: 0; } }
+
+@media (max-width: 1820px) {
+  /* line 48, sass/slider2.scss */
+  .slider2-root {
+    max-width: 1534px !important;
+    margin-left: auto;
+    margin-right: 0; } }
+
+@media (max-width: 1626px) {
+  /* line 58, sass/slider2.scss */
+  .slider2-root {
+    max-width: 1392px !important;
+    margin-left: auto;
+    margin-right: 0; } }
+
+@media (max-width: 1450px) {
+  /* line 67, sass/slider2.scss */
+  .slider2-root {
+    max-width: 1200px !important;
+    margin-left: auto;
+    margin-right: 0; } }
+
+@media (max-width: 862px) {
+  /* line 75, sass/slider2.scss */
+  .slider2-root {
+    max-width: 1000px !important;
+    margin-left: auto;
+    margin-right: 0; }
+  /* line 84, sass/slider2.scss */
+  .recent .container > div {
+    margin-bottom: 30px; } }
+
+@media (max-width: 768px) {
+  /* line 93, sass/slider2.scss */
+  .slider2-root {
+    max-width: 660px !important;
+    margin-left: auto;
+    margin-right: 0; }
+  /* line 101, sass/slider2.scss */
+  .recent .container > div {
+    margin-bottom: 20px; } }
+
+@media (max-width: 576px) {
+  /* line 113, sass/slider2.scss */
+  .recent .container > div {
+    margin-bottom: 8px; } }

@@ -1,0 +1,215 @@
+@font-face{
+	font-family:NohemiLight ;
+	src:url(../fonts/Nohemi/NohemiLight.otf);
+}
+
+@font-face{
+	font-family:NohemiThin ;
+	src:url(../fonts/Nohemi/Nohemi-Thin.otf);
+}
+
+@font-face{
+	font-family:NohemiRegular ;
+	src:url(../fonts/Nohemi/NohemiRegular.otf);
+}
+@font-face{
+	font-family:NohemiMedium ;
+	src:url(../fonts/Nohemi/NohemiMedium.otf);
+}
+@font-face{
+	font-family:NohemiSemibold ;
+	src:url(../fonts/Nohemi/NohemiSemibold.otf);
+}
+@font-face{
+	font-family:NohemiBold ;
+	src:url(../fonts/Nohemi/NohemiBold.otf);
+}
+
+/*common start*/
+*{
+	font-family:NohemiRegular ;
+	font-weight: 400;
+	font-size:16px ;
+	color: #FFFFFF;
+}
+.bg{
+	background-image: url(../images/main-bgcopy.webp);
+	/*background-image: url(../images/main-bg.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-100vh{
+	height: 100vh;
+}
+.no-scrollbar{
+	overflow: hidden;
+}
+.p-0{padding: 0;} 
+.m-0{margin: 0;}
+.link{
+	color: white;
+	transition: color  .3s ease;
+	text-decoration: none;
+}
+.link:hover{
+	color: #1b66d7;
+}
+/*common end*/
+
+/*tag start*/
+.tag{
+	padding: 6px 0;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.12) 100%);
+	backdrop-filter: blur(7px);
+	text-align: center;
+}
+.tag span{
+	font-family: NohemiLight;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 0.42px;
+}
+/*tag end*/
+
+/*header start*/
+header{
+	padding: 16px 0;
+}
+.menu{
+
+}
+.menu ul li{
+	padding-left: 60px;
+}
+.menu ul li a{
+	font-family: NohemiBold;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160.4%;
+	letter-spacing: 0.4px;
+	color: #A5A5A5 !important;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	font-family: NohemiBold;
+	font-weight: 700;
+	color: #FFFFFF !important;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding-bottom: 50px;
+}
+.car-ind [data-bs-target] {
+    background-color: transparent;
+}
+.c-banner img{
+	border-radius: 20px;
+}
+.car-text{
+	left:5%;
+	right: 0;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.c-banner a{
+	font-size: 96px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 112.9%;
+	letter-spacing: 1.92px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.c-banner hr{
+	width: 40px;
+	border: 2px solid #FFFFFF !important;
+}
+.c-banner p{
+	font-size: 21px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 112.9%;
+	letter-spacing: 3.255px;
+	text-transform: capitalize;
+}
+.c-banner h6{
+	margin-top: 80px;
+	margin-left: 20%;
+	text-align: center;
+	font-size: 32px;
+	font-family: NohemiRegular;
+	font-weight: 400;
+	line-height: 112.9%;
+	letter-spacing: 0.64px;
+	text-transform: capitalize;
+}
+.icon{
+	margin-left: 160px;
+}
+.icon i{
+	margin-left: 30px;
+	font-size: 25px;
+	color: #CBCFD8;
+
+}
+.appstore img{
+	/*margin-left: 32%;*/
+	margin-top: 30px;
+	width:80%;
+}
+.prev{
+	left:80%;
+}
+.next{}
+.prev, .next {
+    position: absolute;
+    top: 80%;
+}
+.prev-icon{
+	background-image: url(../images/prev.png);
+}
+.next-icon{
+	background-image: url(../images/next.png);
+}
+/*banner end*/
+
+body{
+	overflow: overlay;
+	scrollbar-color: rebeccapurple green;
+}
+
+/** custorm scrollbar ***/
+
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*	width: 10px;*/
+/*	background: transparent;*/
+/*	scrollbar-color: auto;*/
+
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*	background: transparent;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*	background: #11171e;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*	background: #555;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-corner {*/
+/*	background: #2c65ec;*/
+/*	border-radius: 40px;*/
+
+/*}*/

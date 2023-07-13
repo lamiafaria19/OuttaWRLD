@@ -1,0 +1,54 @@
+/* line 2, sass/animation.scss */
+[data-animation-direction='bottom-to-top'] {
+  transform: translateY(100px); }
+
+/* line 5, sass/animation.scss */
+.animate {
+  transition: all .4s ease;
+  transform: translateY(0px); }
+
+/* line 12, sass/animation.scss */
+.cursor-follower {
+  position: fixed;
+  border: 2px solid white;
+  background-color: rgba(10, 83, 190, 0);
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+  transform: translate(5px, 5px); }
+  /* line 26, sass/animation.scss */
+  .cursor-follower.active {
+    opacity: 0.7;
+    transform: scale(2.5);
+    background: rgba(229, 229, 229, 0.17);
+    border: none; }
+  /* line 33, sass/animation.scss */
+  .cursor-follower.hovered {
+    opacity: 0.08;
+    border: none; }
+  /* line 38, sass/animation.scss */
+  .cursor-follower.active-swiper {
+    opacity: 0.7;
+    transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+    transform: scale(2.5);
+    background: rgba(229, 229, 229, 0.17);
+    border: none; }
+
+/* line 49, sass/animation.scss */
+[data-animation="animate-scale"] {
+  border-radius: 40px;
+  transform: scale(0.8);
+  transition: transform .4s ease; }
+
+/* line 55, sass/animation.scss */
+.animate-scale {
+  transform: scale(1);
+  border-radius: 0; }
+
+/* line 61, sass/animation.scss */
+.hero3.visible {
+  transform: scale(0.8); }

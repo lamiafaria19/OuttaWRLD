@@ -1,0 +1,292 @@
+/*hero section1 start*/
+.hero1{
+	padding-top: 200px ;
+	padding-bottom: 80px;
+	background-image: url(../images/banner1copy.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+}
+.hero1 h1{
+	font-size: 75px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 112.9%;
+	letter-spacing: 1.92px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.hero1 p{
+	font-size: 18px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 112.9%;
+	letter-spacing: 3.255px;
+	text-transform: capitalize;
+}
+.hero1 h6{
+	margin-top: 100px;
+	margin-left: 20%;
+	font-size: 30px;
+	font-family: NohemiRegular;
+	font-weight: 400;
+	line-height: 112.9%;
+	letter-spacing: 0.64px;
+	text-transform: capitalize;
+}
+.hero1 img{
+	width: 20%;
+	margin-top: 40px;
+}
+/*hero section1 end*/
+
+/*hero section2 start*/
+.hero2{
+	padding-top: 200px ;
+	padding-bottom: 80px;
+	/*background-image: url(../images/home2.webp);*/
+	background-image: url(../images/home2.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+}
+.hero2 h1{
+	font-size: 75px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 112.9%;
+	letter-spacing: 1.92px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.hero2 p{
+	font-size: 18px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 112.9%;
+	letter-spacing: 3.255px;
+	text-transform: capitalize;
+}
+.hero2 h6{
+	margin-top: 100px;
+	margin-left: 20%;
+	font-size: 30px;
+	font-family: NohemiRegular;
+	font-weight: 400;
+	line-height: 112.9%;
+	letter-spacing: 0.64px;
+	text-transform: capitalize;
+}
+.hero2 img{
+	width: 20%;
+	margin-top: 40px;
+}
+/*hero section2 end*/
+
+/*hero section3 start*/
+.hero3{
+	padding-top: 200px ;
+	padding-bottom: 80px;
+	background-image: url(../images/home1.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.hero3 h1{
+	font-size: 75px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 112.9%;
+	letter-spacing: 1.92px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.hero3 p{
+	font-size: 18px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 112.9%;
+	letter-spacing: 3.255px;
+	text-transform: capitalize;
+}
+.hero3 h6{
+	margin-top: 100px;
+	margin-left: 20%;
+	font-size: 30px;
+	font-family: NohemiRegular;
+	font-weight: 400;
+	line-height: 112.9%;
+	letter-spacing: 0.64px;
+	text-transform: capitalize;
+}
+.hero3 img{
+	width: 20%;
+	margin-top: 40px;
+}
+/*hero section3 end*/
+
+/*create start*/
+.create{
+	padding: 100px 0;
+}
+.c-content{
+	padding: 100px 0;
+	background-image: url(../images/create-bgcopy.webp);
+	background-size: 98%;
+	background-repeat: no-repeat;
+}
+
+.c-img img{
+	width: 120%;
+
+}
+.e-img img{
+	width: 100%;
+}
+.c-text{
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.-ml-34{margin-left: -34px}
+.c-text h1{
+	font-size: 60px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 133.9%;
+	letter-spacing: 1.2px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+.c-text p{
+	font-size: 21px;
+	font-family: NohemiLight !important;
+	font-style: normal;
+	line-height: 35px;
+	letter-spacing: 0.84px;
+	color: rgba(227, 230, 236, 0.62);
+
+
+
+}
+/*create end*/
+
+/*recent start*/
+.recent{
+	padding: 80px 0;
+}
+.recent h1{
+	margin-bottom: 100px;
+	font-size: 60px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 133.9%;
+	letter-spacing: 1.2px;
+	text-transform: capitalize;
+}
+.recent img{
+	width: 100%;
+}
+.prev-control{
+	left:85%;
+}
+.next-control{
+	left: 90%;
+}
+.prev-control, .next-control {
+    position: absolute;
+    top:-450px;
+}
+/*recent end*/
+
+/*future start*/
+.future{
+	margin-top: 100px;
+	padding:50px 0;
+	background-image: url(../images/f-bgcopy.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.f-text{
+	margin-top: 50px;
+}
+.f-text h1{
+	font-size: 60px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 133.9%;
+	letter-spacing: 1.2px;
+	text-transform: capitalize;
+}
+.f-text p{
+	margin:40px 0;
+	font-size: 36px;
+	font-family: NohemiLight;
+	font-weight: 300;
+	line-height: 128.9%;
+	letter-spacing: 0.72px;
+}
+.f-text img{
+	width: 40%;
+}
+.f-img{
+
+}
+.f-img img{
+	width:100%;
+	
+}
+/*future end*/
+
+/*footer start*/
+footer{
+	padding: 80px 0;
+}
+.f-row1{
+
+}
+.f-row1 h1{
+	font-size: 36px;
+	font-family: NohemiLight;
+	font-weight: 300;
+	line-height: 128.9%;
+	letter-spacing: 0.72px;
+	text-align: center;
+}
+.f-row1 ul{
+	text-align: right;
+}
+.f-row1 ul li a{
+	margin-left: 20px;
+
+}
+.f-row1 hr{
+	margin: 20px 0;
+}
+.f-row2 p{
+	color: #A5A5A5;
+	font-size: 16px;
+	font-family: Montserrat;
+	line-height: 32px;
+}
+.f-row2 ul{
+	text-align: right;
+
+}
+.f-row2 ul li a{
+	margin-left: 20px;
+	color:  #A5A5A5;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+footer .f-logo img{
+	width: 150px;
+}
+/*footer end*/

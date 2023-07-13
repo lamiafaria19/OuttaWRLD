@@ -1,0 +1,144 @@
+/*slider start*/
+.w-slider{
+	padding:  0;
+}
+.slider-indicator{
+	margin-bottom:-55px;
+}
+.slider-indicator [data-bs-target] {
+    background-color: transparent;
+    text-indent: -700px;
+}
+.slider-item img{
+	width:100%;
+	border-radius: 20px;
+	text-align: center;
+}
+.slider-caption{
+	left:5%;
+	right: 0;
+	text-align: left;
+}
+.slider-caption p{
+	color: rgba(227, 230, 236, 0.80);
+	font-size: 21px;
+	font-family: NohemiLight;
+	font-weight: 300;
+	line-height: 160.4%;
+	letter-spacing: 0.42px;
+	text-transform: capitalize;
+}
+.slider-caption h5{
+	font-size: 70px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 160.4%;
+	letter-spacing: 1.4px;
+}
+.left-control{
+	left:80%;
+}
+.right-control{}
+.left-control, .right-control {
+    position: absolute;
+    top: 110%;
+}
+.left-icon{
+	background-image: url(../images/prev.png);
+}
+.right-icon{
+	background-image: url(../images/next.png);
+}
+/*slider end*/
+
+/*paragraph start*/
+.paragraph{
+	margin-top:200px;
+}
+.paragraph p{
+	text-align: center;
+	font-size: 32px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 165.95%;
+	letter-spacing: 1.12px;
+	text-transform: capitalize;
+}
+/*paragraph end*/
+
+/*why digital start*/
+.w-digital{
+	padding: 100px 0;
+}
+.w-digital h1{
+	text-align: center;
+	font-size: 96px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 165.95%;
+	letter-spacing: 3.36px;
+}
+.w-digital ul{
+	margin-top: 100px;
+	list-style-type: square;
+}
+.w-digital ul li{
+	margin-bottom: 40px;
+}
+.w-digital h6{
+	font-size: 20px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+}
+.w-digital p{
+	color: rgba(227, 230, 236, 0.62);
+	font-size: 21px;
+	font-family: NohemiLight;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 0.42px;
+}
+.w-digital img{
+	width: 100%;
+
+}
+/*why digital end*/
+
+
+/*why otw start*/
+.w-otw{
+	padding: 100px 0;
+}
+.w-otw h1{
+	text-align: center;
+	font-size: 96px;
+	font-family: NohemiSemibold;
+	font-weight: 600;
+	line-height: 165.95%;
+	letter-spacing: 3.36px;
+}
+.w-otw ul{
+	margin-top: 100px;
+	list-style-type: square;
+}
+.w-otw ul li{
+	margin-bottom: 40px;
+}
+.w-otw h6{
+	font-size: 20px;
+	font-family: NohemiMedium;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+}
+.w-otw p{
+	color: rgba(227, 230, 236, 0.62);
+	font-size: 21px;
+	font-family: NohemiLight;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 0.42px;
+}
+/*why otw end*/
